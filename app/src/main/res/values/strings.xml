@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InClassAssignment08-JieqiongL</string>
+    <string name="key">Key:</string>
+    <string name="key_hint">Type key here</string>
+    <string name="value">Value:</string>
+    <string name="value_hint">Type value here</string>
+    <string name="write_to_cloud">Write to cloud</string>
+    <string name="read_from_cloud">Read from cloud</string>
+
+</resources>
