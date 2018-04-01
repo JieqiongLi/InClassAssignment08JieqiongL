@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         readButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myRef = database.getReference(keyField.getText().toString());
-                myRef.addValueEventListener(new ValueEventListener() {
+                myRef = database.getReference("Messages");
+                myRef.child(keyField.getText().toString()).addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if (dataSnapshot.exists()) {
